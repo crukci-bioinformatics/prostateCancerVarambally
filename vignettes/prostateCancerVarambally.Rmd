@@ -37,6 +37,6 @@ Sample_Group[grep("Metastatic", pData(geoData)$title)] <- "Metastatic"
 pData(geoData)$Sample_Group <- Sample_Group
 colnames(fData(geoData))[which(colnames(fData(geoData)) == "Gene Symbol")] <- "Symbol"
 varambally <- geoData
-save(varambally, file="../data/varambally.rda")
+save(varambally, file="data/varambally.rda",compress="xz")
 ```
 
