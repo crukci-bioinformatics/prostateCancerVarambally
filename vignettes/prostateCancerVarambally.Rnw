@@ -34,10 +34,10 @@ Sample_Group <- NULL
 
 Sample_Group[grep("Benign", pData(geoData)$title)] <- "Benign"
 
-Sample_Group[grep("prostate cancer",pData(geoData)$title)] <- "PC"
+Sample_Group[grep("prostate cancer",pData(geoData)$title)] <- "Tumour"
 
 Sample_Group[grep("Metastatic", pData(geoData)$title)] <- "Metastatic"
-pData(geoData)$Sample_Group <- factor(Sample_Group,levels=c("Benign","PC","Metastatic"))
+pData(geoData)$Sample_Group <- factor(Sample_Group,levels=c("Benign","Tumour","Metastatic"))
 
 colnames(fData(geoData))[which(colnames(fData(geoData)) == "Gene Symbol")] <- "Symbol"
 varambally <- geoData
