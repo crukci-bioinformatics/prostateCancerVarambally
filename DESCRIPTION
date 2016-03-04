@@ -6,7 +6,7 @@ Date: 2015-09-10
 Author: Mark Dunning
 Maintainer: Mark Dunning <mark.dunning@cruk.cam.ac.uk>
 Description: A Bioconductor data package for the Varambally dataset
-License: GPL 2.0
+License: Artistic-2.0
 LazyData: TRUE
 Depends: Biobase, R (>= 2.10) 
 Suggests: GEOquery
