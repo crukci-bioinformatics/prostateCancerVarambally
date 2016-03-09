@@ -1,7 +1,7 @@
 Package: prostateCancerVarambally
 Type: Package
 Title: Prostate Cancer Data
-Version: 0.0.99
+Version: 0.99
 Date: 2015-09-10
 Author: Mark Dunning
 Maintainer: Mark Dunning <mark.dunning@cruk.cam.ac.uk>
