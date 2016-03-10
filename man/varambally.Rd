@@ -9,6 +9,7 @@
     \description{
       Object imported using GEOquery and curated to remove variables introduced by GEO
     }
+        \value{ExpressionSet object for the dataset}
     \author{
 Mark Dunning
     }

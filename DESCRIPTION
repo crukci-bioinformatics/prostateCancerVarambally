@@ -8,6 +8,6 @@ Maintainer: Mark Dunning <mark.dunning@cruk.cam.ac.uk>
 Description: A Bioconductor data package for the Varambally dataset
 License: Artistic-2.0
 LazyData: TRUE
-Depends: Biobase, R (>= 2.10) 
+Depends: Biobase, R (>= 3.3) 
 Suggests: GEOquery
 biocViews: ExperimentData, ExpressionData,GEO, MicroarrayData, CancerData, ProstateCancerData
