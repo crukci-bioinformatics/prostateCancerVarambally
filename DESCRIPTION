@@ -1,8 +1,8 @@
 Package: prostateCancerVarambally
 Type: Package
 Title: Prostate Cancer Data
-Version: 0.99.0
-Date: 2016-03-10
+Version: 0.99.1
+Date: 2016-03-24
 Author: Mark Dunning
 Maintainer: Mark Dunning <mark.dunning@cruk.cam.ac.uk>
 Description: A Bioconductor data package for the Varambally dataset
